@@ -16,7 +16,7 @@ document.getElementById("leadForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
   const form = e.target;
-  const url = "COLE_AQUI_A_URL_DO_SCRIPT_GOOGLE"; // substitua com sua URL do Apps Script
+  const url = "https://script.google.com/macros/s/AKfycbyvtOwXjQ3p9cEuo6V3iEp0_3B6BPjLGj5fAMVh6igTI-R0RVZk76YAecWV9SKBosd9CA/exec";
 
   const formData = new FormData(form);
   const botao = document.getElementById("btnEnviar");
