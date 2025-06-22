@@ -16,7 +16,7 @@ document.getElementById("leadForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
   const form = e.target;
-  const url = "https://script.google.com/macros/s/AKfycbzuVvxymDJY6AslHa2Wc32khykBOLmPO_H9jzA2FJSwqkqBjqsWjsPqnx1mIGDVXsXtEQ/exec";
+  const url = "https://script.google.com/macros/s/AKfycbx9eM5uPZLORztVvaGys3tcCrfueZUWHWQ8oIbdz1AR9_ZJeQsJpipfjVwjpBi9rc7KwQ/exec";
 
   const formData = new FormData(form);
   const botao = document.getElementById("btnEnviar");
